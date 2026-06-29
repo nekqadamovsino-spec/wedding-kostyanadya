@@ -70,3 +70,18 @@ img{max-width:100%;display:block}.noise{position:fixed;inset:0;z-index:50;pointe
 .palette img{width:64px!important;height:64px!important;border-radius:50%;object-fit:cover;border:1px solid rgba(0,0,0,.12);box-shadow:0 8px 24px rgba(0,0,0,.08);filter:none!important}
 .men-dress{margin-top:24px!important;padding-top:20px;border-top:1px solid rgba(123,139,104,.20)}
 @media(min-width:760px){.palette{justify-content:flex-start!important}.palette img{width:72px!important;height:72px!important}}
+/* ===== Цветовая палитра ===== */
+
+.dress-palette {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 24px 0 32px;
+}
+
+.dress-palette img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    display: block;
+}
