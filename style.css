@@ -72,16 +72,23 @@ img{max-width:100%;display:block}.noise{position:fixed;inset:0;z-index:50;pointe
 @media(min-width:760px){.palette{justify-content:flex-start!important}.palette img{width:72px!important;height:72px!important}}
 /* ===== Цветовая палитра ===== */
 
-.dress-palette {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 24px 0 32px;
+.dress-palette{
+    display:flex;
+    justify-content:center;
+    margin:24px 0 32px;
+
+    background:#1d2519;          /* такой же зелёный как карточки */
+    border:1px solid rgba(181,170,120,.25);
+    border-radius:28px;
+    padding:24px;
 }
 
-.dress-palette img {
-    width: 100%;
-    max-width: 360px;
-    height: auto;
-    display: block;
+.dress-palette img{
+    width:100%;
+    max-width:360px;
+    height:auto;
+    display:block;
+
+    background:transparent;
+    border-radius:18px;
 }
